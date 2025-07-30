@@ -7,3 +7,37 @@ const mydetail = {
 };
 
 console.log(mydetail);
+
+// //Operator
+// //Arithmetic oprators
+// let a = 5;
+// let b = 10;
+// console.log(a + b)
+// console.log(a - b)
+// console.log(a * b)
+// console.log(a / b)
+
+// //Assignment operator
+// console.log(a += 5) // a = a + 5
+// console.log(a -= 2) // a = a - 2
+// console.log(a *= 2) // a = a * 2
+// console.log(a /= 2) // a = a / 2
+
+//Conditional operator
+//if statement
+let age = 20
+if (age > 18){
+    console.log("Allow to Vote");
+}else{
+    console.log("Not Allow to Vote");
+}
+let marks = 75;
+if (marks >= 90) {
+    console.log("Grade A");
+}else if (marks >= 75) {
+    console.log("Grade B");
+}else if (marks >= 50) {
+    console.log("Grade C");
+}else {
+    console.log("Grade D");
+}

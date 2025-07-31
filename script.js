@@ -53,3 +53,7 @@ if (userAge >= 18) {
 else {
     console.log("You are not eligible to vote.");
 }
+
+for( i=1;i <= 5; i++){
+    console.log("Hello Guyz");
+}

@@ -65,13 +65,13 @@ console.log(mydetail);
 //     }
 // }
 
-// make a game that gusse the number
-let num = 12;
-let usernum = prompt("Guess the number : ");
-while(usernum != num){
-    usernum = prompt("Try again, Guess the number : ");
-}
+// // make a game that gusse the number
+// let num = 12;
+// let usernum = prompt("Guess the number : ");
+// while(usernum != num){
+//     usernum = prompt("Try again, Guess the number : ");
+// }
 
-console.log("You guessed the number correctly!");
+// console.log("You guessed the number correctly!");
 
-// Now All Task are Done
+// // Now All Task are Done

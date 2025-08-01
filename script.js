@@ -58,18 +58,20 @@ console.log(mydetail);
 //     console.log("i",i);
 // } Infinite loop
 
-// for(i = 0; i <= 100; i++){
-//     if(i %2 === 0){
-//         console.log(i + " is even");
+// to print 0 to 100 print only even number
+// for (i = 0; i<= 100; i++){
+//     if (i%2==0){
+//         console.log(i,"is even");
 //     }
 // }
-// num = 12;
-// let game = prompt("Enter a number: ");
 
-// while (game != num){
-//     game = prompt("Try again: Enter a number: ");
-// }
+// make a game that gusse the number
+let num = 12;
+let usernum = prompt("Guess the number : ");
+while(usernum != num){
+    usernum = prompt("Try again, Guess the number : ");
+}
 
-// console.log("You guessed the number correctly!");
+console.log("You guessed the number correctly!");
 
-
+// Now All Task are Done

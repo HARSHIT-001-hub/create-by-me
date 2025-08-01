@@ -58,3 +58,18 @@ console.log(mydetail);
 //     console.log("i",i);
 // } Infinite loop
 
+// for(i = 0; i <= 100; i++){
+//     if(i %2 === 0){
+//         console.log(i + " is even");
+//     }
+// }
+// num = 12;
+// let game = prompt("Enter a number: ");
+
+// while (game != num){
+//     game = prompt("Try again: Enter a number: ");
+// }
+
+// console.log("You guessed the number correctly!");
+
+

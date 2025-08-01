@@ -74,4 +74,13 @@ console.log(mydetail);
 
 // console.log("You guessed the number correctly!");
 
-// // Now All Task are Done
+// Now All Task are Done
+
+
+// New task
+// let user_name = prompt("Enter your username: ");
+
+// let username = `@${user_name}${user_name.length}`;
+
+// console.log(username);
+

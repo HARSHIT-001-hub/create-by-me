@@ -84,3 +84,13 @@ console.log(mydetail);
 
 // console.log(username);
 
+// // Loops in Array
+// for(i=0; i<= mydetail.hobbies.length; i++){
+//     console.log(mydetail.hobbies[i]);
+// }
+
+// let comp = ['Bloomberg','Microsoft', 'Uber', 'Google', 'IBM','Netflix'];
+
+// comp.shift();
+// comp.slice(1,1, 'Ola');
+// comp.push("Amazon");

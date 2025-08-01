@@ -45,16 +45,16 @@ console.log(mydetail);
 // age = 19 ? "adult": "minor";
 // console.log(age);
 
-let userAge = (prompt("Enter your age: "));
-if (userAge >= 18) {
-    console.log("You are eligible to vote.");
-}
-else {
-    console.log("You are not eligible to vote.");
-}
+
+// let userAge = (prompt("Enter your age: "));
+// if (userAge >= 18) {
+//     console.log("You are eligible to vote.");
+// }
+// else {
+//     console.log("You are not eligible to vote.");
+// }
 
 // for( i=1;i >= 0; i++){
 //     console.log("i",i);
-// } Infinte loop
-
+// } Infinite loop
 

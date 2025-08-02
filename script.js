@@ -95,3 +95,15 @@ console.log(mydetail);
 // comp.slice(1,1, 'Ola');
 // comp.push("Amazon");
 
+// New Task
+
+function countvowel(str){
+    let count = 0;
+    for (const char of str){
+        if(char === "a" || char === "e" || char === "i" || char === "o" || char === "u");
+    {
+        count++;
+    }
+    return count;
+};
+}

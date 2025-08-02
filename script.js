@@ -107,3 +107,13 @@ console.log(mydetail);
 //     return count;
 // }
 
+// let marks = [46,75,95,98,45,32,96];
+
+// let newArr = marks.filter((val)  => {
+//     return val >= 90;
+// });
+
+// console.log(newArr);
+
+// Task is Done ✅
+

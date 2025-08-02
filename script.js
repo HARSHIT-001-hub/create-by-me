@@ -94,3 +94,4 @@ console.log(mydetail);
 // comp.shift();
 // comp.slice(1,1, 'Ola');
 // comp.push("Amazon");
+

@@ -117,3 +117,7 @@ console.log(mydetail);
 
 // Task is Done ✅
 
+// let access = document.getElementById("h2");
+// console.log(access.innerText + " Apna college Student");
+// access.innerText=access.innerText + " Apna college Student"
+

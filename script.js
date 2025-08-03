@@ -121,3 +121,16 @@ console.log(mydetail);
 // console.log(access.innerText + " Apna college Student");
 // access.innerText=access.innerText + " Apna college Student"
 
+// //DOM manipulation
+// let h1 = document.createElement("h1");
+// h1.innerText = "Hola ";
+
+// document.querySelector("body").prepend(h1);
+
+// let btr = document.createElement("button")
+// btr.innerText = "Click Me"
+
+// btr.style.backgroundColor = "red";
+// btr.style.color = "white";
+
+// document.querySelector("body").prepend(btr)

@@ -9,6 +9,7 @@
       background-color: #f9f9f9;
       color: #333;
       line-height: 1.6;
+      
     }
 
     header.navbar {
@@ -161,14 +162,9 @@
     .contact-form .btn:hover {
       background-color: #0097a7;
     }
-    .footer-section{
+    .f1{
       text-align: center; 
       padding: 20px; 
-      background-color: #222; 
-      color: #fff;
-    }
-    .footer-section1, .footer-section2, .footer-section3 {
-      text-align: center; 
       background-color: #222; 
       color: #fff;
     }

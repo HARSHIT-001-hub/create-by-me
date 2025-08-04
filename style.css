@@ -11,6 +11,14 @@
       line-height: 1.6;
       
     }
+    .dark{
+      background-color: black;
+      color: white;
+    }
+    .white{
+      background-color: white;
+      color: black;
+    }
 
     header.navbar {
       background-color: #222;

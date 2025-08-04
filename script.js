@@ -134,3 +134,20 @@ console.log(mydetail);
 // btr.style.color = "white";
 
 // document.querySelector("body").prepend(btr)
+
+
+let modebtn = document.querySelector("#mode");
+let mode = document.querySelector("body");
+let currmode = "light";
+modebtn.addEventListener("click", () => {
+    if(currmode === "light"){
+        currmode = "dark";
+        mode.classList.add("dark");
+        mode.classList.remove("light");
+    }else{
+        currmode = "light"
+        mode.classList.add("light");
+        mode.classList.remove("dark");
+    }
+    console.log("Current mode is: " + currmode);
+});

@@ -151,3 +151,23 @@ modebtn.addEventListener("click", () => {
     }
     console.log("Current mode is: " + currmode);
 });
+
+class user {
+    constructor(name, email){
+        this.name = name;
+        this.email = email;
+    }
+    veiwdata (){
+        console.log("Student Data")
+    }
+    dive(){
+        console.log("A,B,C")
+    }
+}
+class notice extends div (){
+    not(){console.log("fsnkfskf")
+    }
+    }
+//Class,obkect
+const Student = new user("Harshit","abc@gmail.com")
+const Student1 = new user("shivam","shivam@gmail.com")

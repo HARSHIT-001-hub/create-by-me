@@ -136,38 +136,55 @@ console.log(mydetail);
 // document.querySelector("body").prepend(btr)
 
 
-let modebtn = document.querySelector("#mode");
-let mode = document.querySelector("body");
-let currmode = "light";
-modebtn.addEventListener("click", () => {
-    if(currmode === "light"){
-        currmode = "dark";
-        mode.classList.add("dark");
-        mode.classList.remove("light");
-    }else{
-        currmode = "light"
-        mode.classList.add("light");
-        mode.classList.remove("dark");
-    }
-    console.log("Current mode is: " + currmode);
-});
+// let modebtn = document.querySelector("#mode");
+// let mode = document.querySelector("body");
+// let currmode = "light";
+// modebtn.addEventListener("click", () => {
+//     if(currmode === "light"){
+//         currmode = "dark";
+//         mode.classList.add("dark");
+//         mode.classList.remove("light");
+//     }else{
+//         currmode = "light"
+//         mode.classList.add("light");
+//         mode.classList.remove("dark");
+//     }
+//     console.log("Current mode is: " + currmode);
+// });
 
-class user {
-    constructor(name, email){
-        this.name = name;
-        this.email = email;
-    }
-    veiwdata (){
-        console.log("Student Data")
-    }
-    dive(){
-        console.log("A,B,C")
-    }
-}
-class notice extends div (){
-    not(){console.log("fsnkfskf")
-    }
-    }
-//Class,obkect
-const Student = new user("Harshit","abc@gmail.com")
-const Student1 = new user("shivam","shivam@gmail.com")
+// class user {
+//     constructor(name, email){
+//         this.name = name;
+//         this.email = email;
+//     }
+//     veiwdata (){
+//         console.log("Student Data")
+//     }
+//     dive(){
+//         console.log("A,B,C")
+//     }
+// }
+// class notice extends div (){
+//     not(){console.log("fsnkfskf")
+//     }
+//     }
+// //Class,obkect
+// const Student = new user("Harshit","abc@gmail.com")
+// const Student1 = new user("shivam","shivam@gmail.com")
+
+
+// const URL = "https://dogapi.dog/api-docs/v2/swagger.json";
+// const fact = document.querySelector("#fact")
+// const btn = document.querySelector("#btr")
+
+// const getfact = async () =>{
+//     console.log("get responess .....");
+//     let response = await fetch(URL);
+//     console.log(response);
+//     let data = await response.json();
+//     fact.innerHTML = data.facts[1];
+// }
+
+// btn.addEventListener("click",getfact);
+
+

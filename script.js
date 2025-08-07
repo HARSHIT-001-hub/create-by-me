@@ -172,19 +172,18 @@ console.log(mydetail);
 // const Student = new user("Harshit","abc@gmail.com")
 // const Student1 = new user("shivam","shivam@gmail.com")
 
+const URL = "https://api.allorigins.win/get?url=https://zenquotes.io/api/quotes/";
+const Thougth = document.querySelector("#Thougth");
+const btn = document.querySelector("#btr");
 
-// const URL = "https://dogapi.dog/api-docs/v2/swagger.json";
-// const fact = document.querySelector("#fact")
-// const btn = document.querySelector("#btr")
+const getthought = async () => {
+    console.log("Get Respones ........");
+    let Respones = await fetch(URL);
+    let raw = await Respones.json();
+    let Data = JSON.parse(raw.contents);
+    console.log(Data);
+    const quote = Data[1];
+    Thougth.innerText = `${quote.q} — ${quote.a}`;
+};
 
-// const getfact = async () =>{
-//     console.log("get responess .....");
-//     let response = await fetch(URL);
-//     console.log(response);
-//     let data = await response.json();
-//     fact.innerHTML = data.facts[1];
-// }
-
-// btn.addEventListener("click",getfact);
-
-
+btn.addEventListener("click",getthought);

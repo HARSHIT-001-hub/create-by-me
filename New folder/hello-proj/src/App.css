@@ -4,6 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+h1{
+  color: white;
+}
+title{
+    color: white;
+}
+
 
 .logo {
   height: 6em;
@@ -39,4 +46,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} 

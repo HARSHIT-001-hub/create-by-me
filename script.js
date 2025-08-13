@@ -136,21 +136,21 @@ console.log(mydetail);
 // document.querySelector("body").prepend(btr)
 
 
-// let modebtn = document.querySelector("#mode");
-// let mode = document.querySelector("body");
-// let currmode = "light";
-// modebtn.addEventListener("click", () => {
-//     if(currmode === "light"){
-//         currmode = "dark";
-//         mode.classList.add("dark");
-//         mode.classList.remove("light");
-//     }else{
-//         currmode = "light"
-//         mode.classList.add("light");
-//         mode.classList.remove("dark");
-//     }
-//     console.log("Current mode is: " + currmode);
-// });
+let modebtn = document.querySelector("#mode");
+let mode = document.querySelector("body");
+let currmode = "light";
+modebtn.addEventListener("click", () => {
+    if(currmode === "light"){
+        currmode = "dark";
+        mode.classList.add("dark");
+        mode.classList.remove("light");
+    }else{
+        currmode = "light"
+        mode.classList.add("light");
+        mode.classList.remove("dark");
+    }
+    console.log("Current mode is: " + currmode);
+});
 
 // class user {
 //     constructor(name, email){
@@ -172,21 +172,21 @@ console.log(mydetail);
 // const Student = new user("Harshit","abc@gmail.com")
 // const Student1 = new user("shivam","shivam@gmail.com")
 
-const URL = "https://api.allorigins.win/get?url=https://zenquotes.io/api/quotes/";
-const Thougth = document.querySelector("#Thougth");
-const btn = document.querySelector("#btr");
+// const URL = "https://api.allorigins.win/get?url=https://zenquotes.io/api/quotes/";
+// const Thougth = document.querySelector("#Thougth");
+// const btn = document.querySelector("#btr");
 
-const getthought = async () => {
-    console.log("Get Respones ........");
-    let Respones = await fetch(URL);
-    let raw = await Respones.json();
-    let Data = JSON.parse(raw.contents);
-    console.log(Data);
-    const quote = Data[1];
-    Thougth.innerText = `${quote.q} — ${quote.a}`;
-};
+// const getthought = async () => {
+//     console.log("Get Respones ........");
+//     let Respones = await fetch(URL);
+//     let raw = await Respones.json();
+//     let Data = JSON.parse(raw.contents);
+//     console.log(Data);
+//     const quote = Data[1];
+//     Thougth.innerText = `${quote.q} — ${quote.a}`;
+// };
 
-btn.addEventListener("click",getthought);
+// btn.addEventListener("click",getthought);
 
-age = 25
-console.log(`Age is ${age} years old.`);
+// age = 25
+// console.log(`Age is ${age} years old.`);

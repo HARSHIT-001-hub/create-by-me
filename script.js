@@ -187,3 +187,6 @@ const getthought = async () => {
 };
 
 btn.addEventListener("click",getthought);
+
+age = 25
+console.log(`Age is ${age} years old.`);

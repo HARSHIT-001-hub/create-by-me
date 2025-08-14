@@ -1,9 +1,9 @@
 const mydetail = {
-    name: "Harshit", //string
-    age: 20, //number
-    city: "Mumbai", //string
-    isStudent: true, //boolean
-    hobbies: ["coding","gaming"] // Array of hobbies
+  name: "Harshit", //string
+  age: 20, //number
+  city: "Mumbai", //string
+  isStudent: true, //boolean
+  hobbies: ["coding", "gaming"], // Array of hobbies
 };
 
 console.log(mydetail);
@@ -45,7 +45,6 @@ console.log(mydetail);
 // age = 19 ? "adult": "minor";
 // console.log(age);
 
-
 // let userAge = (prompt("Enter your age: "));
 // if (userAge >= 18) {
 //     console.log("You are eligible to vote.");
@@ -75,7 +74,6 @@ console.log(mydetail);
 // console.log("You guessed the number correctly!");
 
 // Now All Task are Done
-
 
 // New task
 // let user_name = prompt("Enter your username: ");
@@ -135,21 +133,20 @@ console.log(mydetail);
 
 // document.querySelector("body").prepend(btr)
 
-
 let modebtn = document.querySelector("#mode");
 let mode = document.querySelector("body");
 let currmode = "light";
 modebtn.addEventListener("click", () => {
-    if(currmode === "light"){
-        currmode = "dark";
-        mode.classList.add("dark");
-        mode.classList.remove("light");
-    }else{
-        currmode = "light"
-        mode.classList.add("light");
-        mode.classList.remove("dark");
-    }
-    console.log("Current mode is: " + currmode);
+  if (currmode === "light") {
+    currmode = "dark";
+    mode.classList.add("dark");
+    mode.classList.remove("light");
+  } else {
+    currmode = "light";
+    mode.classList.add("light");
+    mode.classList.remove("dark");
+  }
+  console.log("Current mode is: " + currmode);
 });
 
 // class user {
@@ -190,3 +187,19 @@ modebtn.addEventListener("click", () => {
 
 // age = 25
 // console.log(`Age is ${age} years old.`);
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+        window.scrollTo({
+        top: targetElement.offsetTop - 80, // Adjust for fixed header
+        behavior: "smooth",
+    });
+    }
+});
+});
